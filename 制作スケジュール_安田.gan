@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-05-30" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3230" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-05-27" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3230" locale="ja_JP">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="名前" width="200" order="0"/>
-        <field id="tpd4" name="開始日" width="75" order="1"/>
-        <field id="tpd5" name="終了日" width="75" order="2"/>
+        <field id="tpd3" name="名前" width="191" order="0"/>
+        <field id="tpd4" name="開始日" width="72" order="1"/>
+        <field id="tpd5" name="終了日" width="72" order="2"/>
         <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#66ff99 #cc66ff #66ffcc #66ff66 #ffff66 #ff6666]]>
+        </option>
     </view>
     <view id="resource-table">
         <field id="0" name="名前" width="210" order="0"/>
@@ -15,7 +18,7 @@
         <day-types>
             <day-type id="0"/>
             <day-type id="1"/>
-            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
             <only-show-weekends value="false"/>
             <overriden-day-types/>
             <days/>
@@ -34,31 +37,34 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="プロトタイプ" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-06-06" thirdDate-constraint="0" expand="true">
-            <task id="3" name="カメラ" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="false">
-                <task id="20" name="カメラと壁の当たり判定" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
-                <task id="19" name="ターゲットロックオン" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
-                <task id="18" name="プレイヤー追尾" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
+        <task id="0" name="プロトタイプ" color="#ffff66" meeting="false" start="2024-06-05" duration="5" complete="26" thirdDate="2024-06-06" thirdDate-constraint="0" expand="true">
+            <task id="3" name="カメラ" color="#66ff99" meeting="false" start="2024-06-05" duration="5" complete="20" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true">
+                <task id="20" name="カメラと壁の当たり判定" color="#66ff99" meeting="false" start="2024-06-06" duration="4" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="19" name="ターゲットロックオン" color="#66ff99" meeting="false" start="2024-06-06" duration="4" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="18" name="プレイヤー追尾" color="#66ff99" meeting="false" start="2024-06-05" duration="2" complete="100" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="2" name="アイテム" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
-                <task id="17" name="ボム爆発時の当たり判定の生成" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
-                <task id="16" name="ボム" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
-                <task id="15" name="回復" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
-                <task id="14" name="アイテムコントローラー" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
+            <task id="2" name="アイテム" color="#8cb6ce" meeting="false" start="2024-06-06" duration="3" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
+                <task id="17" name="ボム爆発時の当たり判定の生成" color="#8cb6ce" meeting="false" start="2024-06-07" duration="2" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="16" name="ボム" color="#8cb6ce" meeting="false" start="2024-06-06" duration="2" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="15" name="回復" color="#8cb6ce" meeting="false" start="2024-06-06" duration="2" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="14" name="アイテムコントローラー" color="#8cb6ce" meeting="false" start="2024-06-06" duration="2" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="1" name="プレイヤー" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-06-06" thirdDate-constraint="0" expand="true">
-                <task id="6" name="ガード" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
-                <task id="7" name="攻撃" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
-                <task id="8" name="回復アイテム使用動作" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
-                <task id="9" name="ボム設置動作" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
-                <task id="10" name="エネミーに攻撃した当たり判定" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
-                <task id="11" name="エネミーに攻撃された当たり判定" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
-                <task id="12" name="エネミーを攻撃した当たり判定" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
-                <task id="13" name="防御時にエネミーに攻撃された当たり判定" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
-                <task id="4" name="通常移動" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
-                <task id="5" name="ダッシュ" color="#8cb6ce" meeting="true" start="2024-05-31" duration="0" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
+            <task id="1" name="プレイヤー" color="#ff6666" meeting="false" start="2024-06-06" duration="3" complete="40" thirdDate="2024-06-06" thirdDate-constraint="0" expand="true">
+                <task id="6" name="ガード" color="#ff6666" meeting="false" start="2024-06-06" duration="2" complete="100" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="7" name="攻撃" color="#ff6666" meeting="false" start="2024-06-06" duration="2" complete="100" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="8" name="回復アイテム使用動作" color="#ff6666" meeting="false" start="2024-06-06" duration="2" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="9" name="ボム設置動作" color="#ff6666" meeting="false" start="2024-06-07" duration="2" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="10" name="エネミーに攻撃した当たり判定" color="#ff6666" meeting="false" start="2024-06-07" duration="2" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="11" name="エネミーに攻撃された当たり判定" color="#ff6666" meeting="false" start="2024-06-07" duration="2" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="12" name="エネミーを攻撃した当たり判定" color="#ff6666" meeting="false" start="2024-06-07" duration="2" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="13" name="防御時にエネミーに攻撃された当たり判定" color="#ff6666" meeting="false" start="2024-06-07" duration="2" complete="0" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="4" name="通常移動" color="#ff6666" meeting="false" start="2024-06-06" duration="2" complete="100" thirdDate="2024-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="21" name="ダッシュ" color="#ff6666" meeting="false" start="2024-06-06" duration="2" complete="100" thirdDate="2024-05-30" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
+        <task id="23" name="アルファ" color="#66ff66" meeting="false" start="2024-05-26" duration="1" complete="0" thirdDate="2024-05-26" thirdDate-constraint="0" expand="true"/>
+        <task id="24" name="ベータ" color="#66ffcc" meeting="false" start="2024-05-26" duration="1" complete="0" thirdDate="2024-05-26" thirdDate-constraint="0" expand="true"/>
+        <task id="25" name="マスター" color="#cc66ff" meeting="false" start="2024-05-26" duration="1" complete="0" thirdDate="2024-05-26" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
